@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParentBridge – AI Updates for Parents</title>
+    <meta name="description" content="ParentBridge turns an instructor's short notes into clear progress messages for parents of young coders.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__icon">PB</span>
+                ParentBridge
+            </a>
+            <nav class="nav">
+                <a href="#how">How it works</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#safety">Safety</a>
+                <a href="app.html" class="btn btn--small">Try it</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO: the main message ===== -->
+        <section class="hero">
+            <div class="container hero__inner">
+                <div class="hero__text">
+                    <p class="badge">For kids' coding instructors</p>
+                    <h1>Your notes. <span class="highlight">Clear messages</span> for every parent.</h1>
+                    <p class="hero__lead">
+                        Write 3 short notes per kid. The AI writes a simple message for each parent.
+                        No jargon. You check it, then send it on WhatsApp.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="app.html" class="btn">Draft my messages</a>
+                        <a href="#how" class="btn btn--ghost">See how it works</a>
+                    </div>
+                    <p class="hero__note">15 messages in under 15 minutes. No account needed.</p>
+                </div>
+
+                <!-- Example: notes in, message out -->
+                <div class="demo" aria-label="Example of notes turned into a parent message">
+                    <div class="demo__card demo__card--notes">
+                        <p class="demo__label">Instructor notes</p>
+                        <ul>
+                            <li>Built a page with a title and a photo</li>
+                            <li>Found links hard</li>
+                            <li>Next: add a link to a second page</li>
+                        </ul>
+                    </div>
+                    <div class="demo__arrow" aria-hidden="true">AI</div>
+                    <div class="demo__card demo__card--message">
+                        <p class="demo__label">Message to the parent</p>
+                        <p>
+                            Hello! This week, [CHILD] built a web page with a title and a photo,
+                            like a small poster on the internet. Links were a bit tricky, and that's normal.
+                            At home, ask [CHILD] to show you the page!
+                        </p>
+                        <p class="demo__check">Checked by the instructor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== THE PROBLEM ===== -->
+        <section class="problem">
+            <div class="container">
+                <h2>Why parents feel lost</h2>
+                <div class="problem__grid">
+                    <p><strong>Parents don't understand.</strong> HTML, CSS, "function": these words mean nothing to them.</p>
+                    <p><strong>Instructors have no time.</strong> 15 personal messages after an evening class take an hour.</p>
+                    <p><strong>Kids quit.</strong> Parents lose interest, and some kids stop the course.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HOW IT WORKS: 3 steps ===== -->
+        <section id="how" class="section">
+            <div class="container">
+                <h2>How it works</h2>
+                <p class="section__lead">Three steps. A few minutes.</p>
+                <ol class="steps">
+                    <li class="step">
+                        <span class="step__number">1</span>
+                        <h3>Write notes</h3>
+                        <p>For each kid: what they built, what was hard, and the next step.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number">2</span>
+                        <h3>Draft messages</h3>
+                        <p>Pick a language. The AI writes one simple message per kid, with one activity to try at home.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__number">3</span>
+                        <h3>Check and send</h3>
+                        <p>You read and edit each message. Then copy it to WhatsApp.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ===== BENEFITS ===== -->
+        <section id="benefits" class="section section--tinted">
+            <div class="container">
+                <h2>What you get</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Save time</h3>
+                        <p>Minutes, not an hour, for a whole group.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Better messages</h3>
+                        <p>Every parent understands their child's progress.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Kids stay</h3>
+                        <p>Parents encourage at home. Kids stay motivated.</p>
+                    </article>
+                    <article class="card">
+                        <h3>3 languages</h3>
+                        <p>French, Tunisian Arabic or English.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SAFETY / GUARDRAILS ===== -->
+        <section id="safety" class="section">
+            <div class="container">
+                <h2>Safe by design</h2>
+                <p class="section__lead">Kids' data deserves extra care.</p>
+                <div class="cards cards--three">
+                    <article class="card card--safety">
+                        <h3>No invented facts</h3>
+                        <p>The AI uses only your notes. You approve every message.</p>
+                    </article>
+                    <article class="card card--safety">
+                        <h3>Privacy first</h3>
+                        <p>The AI sees "[CHILD]", never the real name. Nothing is stored.</p>
+                    </article>
+                    <article class="card card--safety">
+                        <h3>Fair and positive</h3>
+                        <p>Every message starts with what went well. Tested in all 3 languages.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FINAL CALL TO ACTION ===== -->
+        <section class="cta">
+            <div class="container cta__inner">
+                <h2>Ready for your next class?</h2>
+                <p>Turn tonight's notes into clear messages for every parent.</p>
+                <a href="app.html" class="btn btn--light">Draft my messages</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>&copy; 2027 Mohamed Azyz  Darragi · A GoMyCode AI Developer Bootcamp project</p>
+            <a href="contact.html">Contact us</a>
+        </div>
+    </footer>
+
+</body>
+</html>
